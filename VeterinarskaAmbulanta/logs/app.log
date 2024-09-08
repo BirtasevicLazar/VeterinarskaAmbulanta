@@ -1,0 +1,644 @@
+2024-09-03 19:23:44 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:23:44 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:23:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:23:44 - Finished Spring Data repository scanning in 8 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:23:44 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:23:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:23:44 - Starting service [Tomcat]
+2024-09-03 19:23:44 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:23:44 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:23:44 - Root WebApplicationContext: initialization completed in 158 ms
+2024-09-03 19:23:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:23:44 - HHH000026: Second-level cache disabled
+2024-09-03 19:23:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:23:44 - HikariPool-2 - Starting...
+2024-09-03 19:23:44 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a688a73
+2024-09-03 19:23:44 - HikariPool-2 - Start completed.
+2024-09-03 19:23:44 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:23:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:23:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:23:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:23:44 - LiveReload server is running on port 35729
+2024-09-03 19:23:44 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:23:44 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:23:44 - Started DemoApplication in 0.401 seconds (process running for 90.485)
+2024-09-03 19:23:44 - Condition evaluation unchanged
+2024-09-03 19:24:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 19:24:03 - Initializing Servlet 'dispatcherServlet'
+2024-09-03 19:24:03 - Completed initialization in 1 ms
+2024-09-03 19:24:03 - Fetching all patients
+2024-09-03 19:24:59 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:24:59 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:01 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:25:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:01 - HikariPool-2 - Shutdown initiated...
+2024-09-03 19:25:01 - HikariPool-2 - Shutdown completed.
+2024-09-03 19:25:01 - INFO - com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:25:01 - INFO - com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:25:01 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:25:01 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:25:01 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-03 19:25:01 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:01 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 19:25:01 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:25:01 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:25:01 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 124 ms
+2024-09-03 19:25:01 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:25:01 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-03 19:25:01 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:25:01 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-09-03 19:25:01 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cc2e32e
+2024-09-03 19:25:01 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-09-03 19:25:01 - WARN - org.hibernate.dialect.Dialect - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:25:01 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:25:01 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:01 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:25:01 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-03 19:25:01 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:01 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:25:01 - INFO - com.example.demo.DemoApplication - Started DemoApplication in 0.29 seconds (process running for 167.52)
+2024-09-03 19:25:01 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-09-03 19:25:27 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:25:27 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:28 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:28 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-09-03 19:25:28 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-09-03 19:25:28 - INFO - com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:25:28 - INFO - com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:25:28 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:25:28 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:25:28 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-03 19:25:28 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:28 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 19:25:28 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:25:28 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:25:28 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 94 ms
+2024-09-03 19:25:28 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:25:28 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-03 19:25:28 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:25:28 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2024-09-03 19:25:28 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c366243
+2024-09-03 19:25:28 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2024-09-03 19:25:28 - WARN - org.hibernate.dialect.Dialect - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:25:28 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:25:28 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:28 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:25:28 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-03 19:25:28 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:28 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:25:28 - INFO - com.example.demo.DemoApplication - Started DemoApplication in 0.241 seconds (process running for 194.25)
+2024-09-03 19:25:28 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-09-03 19:25:36 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:25:36 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:36 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:36 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2024-09-03 19:25:36 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2024-09-03 19:25:36 - INFO - com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:25:36 - INFO - com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:25:36 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:25:36 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:25:36 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-03 19:25:36 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:36 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 19:25:36 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:25:36 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:25:36 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 80 ms
+2024-09-03 19:25:36 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:25:36 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-03 19:25:36 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:25:36 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2024-09-03 19:25:36 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76a00c93
+2024-09-03 19:25:36 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2024-09-03 19:25:36 - WARN - org.hibernate.dialect.Dialect - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:25:36 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:25:36 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:36 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:25:36 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-03 19:25:36 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:36 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:25:36 - INFO - com.example.demo.DemoApplication - Started DemoApplication in 0.272 seconds (process running for 202.261)
+2024-09-03 19:25:36 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-09-03 19:25:45 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:25:45 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:46 - WARN - org.apache.tomcat.util.net.Acceptor - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:25:46 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:46 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2024-09-03 19:25:46 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2024-09-03 19:25:46 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:25:46 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:25:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:25:46 - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:25:46 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:25:46 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:46 - Starting service [Tomcat]
+2024-09-03 19:25:46 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:25:46 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:25:46 - Root WebApplicationContext: initialization completed in 107 ms
+2024-09-03 19:25:46 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:25:46 - HHH000026: Second-level cache disabled
+2024-09-03 19:25:47 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:25:47 - HikariPool-6 - Starting...
+2024-09-03 19:25:47 - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c45646
+2024-09-03 19:25:47 - HikariPool-6 - Start completed.
+2024-09-03 19:25:47 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:25:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:25:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:25:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:25:47 - LiveReload server is running on port 35729
+2024-09-03 19:25:47 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:25:47 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:25:47 - Started DemoApplication in 0.228 seconds (process running for 212.649)
+2024-09-03 19:25:47 - Condition evaluation unchanged
+2024-09-03 19:25:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 19:25:48 - Initializing Servlet 'dispatcherServlet'
+2024-09-03 19:25:48 - Completed initialization in 1 ms
+2024-09-03 19:25:48 - Fetching patient with id: 1
+2024-09-03 19:25:50 - Fetching all patients
+2024-09-03 19:27:51 - Fetching all patients
+2024-09-03 19:29:43 - Fetching all patients
+2024-09-03 19:29:45 - Fetching all patients
+2024-09-03 19:29:53 - Fetching patient with id: 1
+2024-09-03 19:32:38 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:32:38 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:32:39 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:32:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:32:39 - HikariPool-6 - Shutdown initiated...
+2024-09-03 19:32:39 - HikariPool-6 - Shutdown completed.
+2024-09-03 19:43:49 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:43:49 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:43:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:43:49 - Finished Spring Data repository scanning in 5 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:43:49 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:43:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:43:49 - Starting service [Tomcat]
+2024-09-03 19:43:49 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:43:49 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:43:49 - Root WebApplicationContext: initialization completed in 104 ms
+2024-09-03 19:43:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:43:49 - HHH000026: Second-level cache disabled
+2024-09-03 19:43:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:43:49 - HikariPool-7 - Starting...
+2024-09-03 19:43:49 - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49fe3ac4
+2024-09-03 19:43:49 - HikariPool-7 - Start completed.
+2024-09-03 19:43:49 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:43:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:43:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:43:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:43:49 - LiveReload server is running on port 35729
+2024-09-03 19:43:49 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:43:49 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:43:49 - Started DemoApplication in 0.282 seconds (process running for 1294.846)
+2024-09-03 19:43:49 - Condition evaluation unchanged
+2024-09-03 19:44:48 - Restarting due to 23 class path changes (0 additions, 0 deletions, 23 modifications)
+2024-09-03 19:44:48 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:44:49 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:44:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:44:49 - HikariPool-7 - Shutdown initiated...
+2024-09-03 19:44:49 - HikariPool-7 - Shutdown completed.
+2024-09-03 19:44:49 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:44:49 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:44:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:44:49 - Finished Spring Data repository scanning in 3 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:44:49 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:44:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:44:49 - Starting service [Tomcat]
+2024-09-03 19:44:49 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:44:49 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:44:49 - Root WebApplicationContext: initialization completed in 78 ms
+2024-09-03 19:44:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:44:49 - HHH000026: Second-level cache disabled
+2024-09-03 19:44:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:44:49 - HikariPool-8 - Starting...
+2024-09-03 19:44:50 - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c394349
+2024-09-03 19:44:50 - HikariPool-8 - Start completed.
+2024-09-03 19:44:50 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:44:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:44:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:44:50 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:44:50 - LiveReload server is running on port 35729
+2024-09-03 19:44:50 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:44:50 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:44:50 - Started DemoApplication in 0.203 seconds (process running for 1355.641)
+2024-09-03 19:44:50 - Condition evaluation unchanged
+2024-09-03 19:45:06 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-03 19:45:06 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:08 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:45:08 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:08 - HikariPool-8 - Shutdown initiated...
+2024-09-03 19:45:08 - HikariPool-8 - Shutdown completed.
+2024-09-03 19:45:08 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:45:08 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:45:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:45:08 - Finished Spring Data repository scanning in 3 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:45:08 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:45:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:08 - Starting service [Tomcat]
+2024-09-03 19:45:08 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:45:08 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:45:08 - Root WebApplicationContext: initialization completed in 122 ms
+2024-09-03 19:45:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:45:08 - HHH000026: Second-level cache disabled
+2024-09-03 19:45:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:45:08 - HikariPool-9 - Starting...
+2024-09-03 19:45:08 - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ff8f9f
+2024-09-03 19:45:08 - HikariPool-9 - Start completed.
+2024-09-03 19:45:08 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:45:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:45:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:45:08 - LiveReload server is running on port 35729
+2024-09-03 19:45:08 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:08 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:45:08 - Started DemoApplication in 0.24 seconds (process running for 1374.088)
+2024-09-03 19:45:08 - Condition evaluation unchanged
+2024-09-03 19:45:09 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:45:09 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:11 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:45:11 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:11 - HikariPool-9 - Shutdown initiated...
+2024-09-03 19:45:11 - HikariPool-9 - Shutdown completed.
+2024-09-03 19:45:11 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:45:11 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:45:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:45:11 - Finished Spring Data repository scanning in 3 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:45:11 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:45:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:11 - Starting service [Tomcat]
+2024-09-03 19:45:11 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:45:11 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:45:11 - Root WebApplicationContext: initialization completed in 65 ms
+2024-09-03 19:45:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:45:11 - HHH000026: Second-level cache disabled
+2024-09-03 19:45:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:45:11 - HikariPool-10 - Starting...
+2024-09-03 19:45:11 - HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57e66ddd
+2024-09-03 19:45:11 - HikariPool-10 - Start completed.
+2024-09-03 19:45:11 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:45:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:45:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:45:11 - LiveReload server is running on port 35729
+2024-09-03 19:45:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:45:11 - Started DemoApplication in 0.171 seconds (process running for 1377.325)
+2024-09-03 19:45:11 - Condition evaluation unchanged
+2024-09-03 19:45:14 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:45:14 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:15 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:45:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:15 - HikariPool-10 - Shutdown initiated...
+2024-09-03 19:45:15 - HikariPool-10 - Shutdown completed.
+2024-09-03 19:45:15 - Starting DemoApplication using Java 17.0.11 with PID 29495 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:45:15 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:45:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:45:15 - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:45:15 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:45:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:15 - Starting service [Tomcat]
+2024-09-03 19:45:15 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:45:15 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:45:15 - Root WebApplicationContext: initialization completed in 79 ms
+2024-09-03 19:45:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:45:15 - HHH000026: Second-level cache disabled
+2024-09-03 19:45:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:45:15 - HikariPool-11 - Starting...
+2024-09-03 19:45:15 - HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@195daa6d
+2024-09-03 19:45:15 - HikariPool-11 - Start completed.
+2024-09-03 19:45:15 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:45:16 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:45:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:45:16 - LiveReload server is running on port 35729
+2024-09-03 19:45:16 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:16 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:45:16 - Started DemoApplication in 0.21 seconds (process running for 1381.624)
+2024-09-03 19:45:16 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter matched:
+      - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration matched:
+      - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'; @ConditionalOnMissingBean (types: org.springframework.scheduling.TaskScheduler,java.util.concurrent.ScheduledExecutorService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration#taskScheduler matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+
+Negative matches:
+-----------------
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration#taskSchedulerVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-09-03 19:45:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:26 - HikariPool-11 - Shutdown initiated...
+2024-09-03 19:45:26 - HikariPool-11 - Shutdown completed.
+2024-09-03 19:45:38 - Starting DemoApplication using Java 17.0.11 with PID 51739 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:45:38 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:45:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-03 19:45:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-03 19:45:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:45:39 - Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:45:39 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:45:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:39 - Starting service [Tomcat]
+2024-09-03 19:45:39 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:45:39 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:45:39 - Root WebApplicationContext: initialization completed in 609 ms
+2024-09-03 19:45:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:45:39 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-03 19:45:39 - HHH000026: Second-level cache disabled
+2024-09-03 19:45:39 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:45:39 - HikariPool-1 - Starting...
+2024-09-03 19:45:39 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42554073
+2024-09-03 19:45:39 - HikariPool-1 - Start completed.
+2024-09-03 19:45:40 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:45:40 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:45:40 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:45:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:45:40 - LiveReload server is running on port 35729
+2024-09-03 19:45:40 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:45:40 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:45:40 - Started DemoApplication in 1.968 seconds (process running for 2.276)
+2024-09-03 19:45:50 - Провера статуса пацијената и слање подсетника власницима.
+2024-09-03 19:46:43 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:46:43 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:45 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:46:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:46:45 - HikariPool-1 - Shutdown initiated...
+2024-09-03 19:46:45 - HikariPool-1 - Shutdown completed.
+2024-09-03 19:46:45 - Starting DemoApplication using Java 17.0.11 with PID 51739 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:46:45 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:46:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:46:45 - Finished Spring Data repository scanning in 5 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:46:45 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:46:45 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:45 - Starting service [Tomcat]
+2024-09-03 19:46:45 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:46:45 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:46:45 - Root WebApplicationContext: initialization completed in 116 ms
+2024-09-03 19:46:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:46:45 - HHH000026: Second-level cache disabled
+2024-09-03 19:46:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:46:45 - HikariPool-2 - Starting...
+2024-09-03 19:46:45 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@601c7d3a
+2024-09-03 19:46:45 - HikariPool-2 - Start completed.
+2024-09-03 19:46:45 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:46:45 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:46:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:46:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:46:45 - LiveReload server is running on port 35729
+2024-09-03 19:46:45 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:45 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:46:45 - Started DemoApplication in 0.347 seconds (process running for 67.359)
+2024-09-03 19:46:45 - Condition evaluation unchanged
+2024-09-03 19:46:47 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:46:47 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:48 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:46:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:46:48 - HikariPool-2 - Shutdown initiated...
+2024-09-03 19:46:48 - HikariPool-2 - Shutdown completed.
+2024-09-03 19:46:48 - Starting DemoApplication using Java 17.0.11 with PID 51739 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:46:48 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:46:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:46:48 - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:46:48 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:46:48 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:48 - Starting service [Tomcat]
+2024-09-03 19:46:48 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:46:48 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:46:48 - Root WebApplicationContext: initialization completed in 189 ms
+2024-09-03 19:46:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:46:49 - HHH000026: Second-level cache disabled
+2024-09-03 19:46:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:46:49 - HikariPool-3 - Starting...
+2024-09-03 19:46:49 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a4f3a14
+2024-09-03 19:46:49 - HikariPool-3 - Start completed.
+2024-09-03 19:46:49 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:46:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:46:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:46:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:46:49 - LiveReload server is running on port 35729
+2024-09-03 19:46:49 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:49 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:46:49 - Started DemoApplication in 0.368 seconds (process running for 70.781)
+2024-09-03 19:46:49 - Condition evaluation unchanged
+2024-09-03 19:46:50 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:46:50 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:52 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:46:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:46:52 - HikariPool-3 - Shutdown initiated...
+2024-09-03 19:46:52 - HikariPool-3 - Shutdown completed.
+2024-09-03 19:46:52 - Starting DemoApplication using Java 17.0.11 with PID 51739 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:46:52 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:46:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:46:52 - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:46:52 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:46:52 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:52 - Starting service [Tomcat]
+2024-09-03 19:46:52 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:46:52 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:46:52 - Root WebApplicationContext: initialization completed in 90 ms
+2024-09-03 19:46:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:46:52 - HHH000026: Second-level cache disabled
+2024-09-03 19:46:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:46:52 - HikariPool-4 - Starting...
+2024-09-03 19:46:52 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8e3ee3c
+2024-09-03 19:46:52 - HikariPool-4 - Start completed.
+2024-09-03 19:46:52 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:46:52 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:46:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:46:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:46:52 - LiveReload server is running on port 35729
+2024-09-03 19:46:52 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:46:52 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:46:52 - Started DemoApplication in 0.293 seconds (process running for 74.159)
+2024-09-03 19:46:52 - Condition evaluation unchanged
+2024-09-03 19:46:58 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 19:46:58 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:47:00 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 19:47:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:47:00 - HikariPool-4 - Shutdown initiated...
+2024-09-03 19:47:00 - HikariPool-4 - Shutdown completed.
+2024-09-03 19:47:00 - Starting DemoApplication using Java 17.0.11 with PID 51739 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:47:00 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:47:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:47:00 - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:47:00 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:47:00 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:47:00 - Starting service [Tomcat]
+2024-09-03 19:47:00 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:47:00 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:47:00 - Root WebApplicationContext: initialization completed in 78 ms
+2024-09-03 19:47:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:47:00 - HHH000026: Second-level cache disabled
+2024-09-03 19:47:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:47:00 - HikariPool-5 - Starting...
+2024-09-03 19:47:00 - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77e78d9b
+2024-09-03 19:47:00 - HikariPool-5 - Start completed.
+2024-09-03 19:47:00 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:47:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:47:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:47:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:47:00 - LiveReload server is running on port 35729
+2024-09-03 19:47:00 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:47:00 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:47:00 - Started DemoApplication in 0.216 seconds (process running for 82.529)
+2024-09-03 19:47:00 - Condition evaluation unchanged
+2024-09-03 19:47:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:47:06 - HikariPool-5 - Shutdown initiated...
+2024-09-03 19:47:06 - HikariPool-5 - Shutdown completed.
+2024-09-03 19:47:09 - Starting DemoApplication using Java 17.0.11 with PID 53215 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:47:09 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:47:09 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-03 19:47:09 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-03 19:47:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:47:10 - Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:47:10 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:47:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:47:10 - Starting service [Tomcat]
+2024-09-03 19:47:10 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:47:10 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:47:10 - Root WebApplicationContext: initialization completed in 571 ms
+2024-09-03 19:47:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:47:10 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-03 19:47:10 - HHH000026: Second-level cache disabled
+2024-09-03 19:47:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:47:10 - HikariPool-1 - Starting...
+2024-09-03 19:47:11 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1541ccbe
+2024-09-03 19:47:11 - HikariPool-1 - Start completed.
+2024-09-03 19:47:11 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:47:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:47:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:47:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:47:11 - LiveReload server is running on port 35729
+2024-09-03 19:47:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:47:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:47:11 - Started DemoApplication in 1.926 seconds (process running for 2.115)
+2024-09-03 19:47:21 - Провера статуса пацијената и слање подсетника власницима.
+2024-09-03 19:49:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:49:06 - HikariPool-1 - Shutdown initiated...
+2024-09-03 19:49:06 - HikariPool-1 - Shutdown completed.
+2024-09-03 19:49:08 - Starting DemoApplication using Java 17.0.11 with PID 55151 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 19:49:08 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 19:49:08 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-03 19:49:08 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-03 19:49:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 19:49:09 - Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
+2024-09-03 19:49:09 - Tomcat initialized with port 8080 (http)
+2024-09-03 19:49:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:49:09 - Starting service [Tomcat]
+2024-09-03 19:49:09 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 19:49:09 - Initializing Spring embedded WebApplicationContext
+2024-09-03 19:49:09 - Root WebApplicationContext: initialization completed in 560 ms
+2024-09-03 19:49:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 19:49:09 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-03 19:49:09 - HHH000026: Second-level cache disabled
+2024-09-03 19:49:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 19:49:09 - HikariPool-1 - Starting...
+2024-09-03 19:49:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f9f7ed9
+2024-09-03 19:49:09 - HikariPool-1 - Start completed.
+2024-09-03 19:49:09 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 19:49:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 19:49:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 19:49:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 19:49:10 - LiveReload server is running on port 35729
+2024-09-03 19:49:10 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 19:49:10 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 19:49:10 - Started DemoApplication in 1.944 seconds (process running for 2.134)
+2024-09-03 19:49:20 - Провера статуса пацијената и слање подсетника власницима.
+2024-09-03 20:12:09 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 20:12:09 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 20:12:10 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 20:12:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 20:12:10 - HikariPool-1 - Shutdown initiated...
+2024-09-03 20:12:10 - HikariPool-1 - Shutdown completed.
+2024-09-03 20:12:10 - Starting DemoApplication using Java 17.0.11 with PID 55151 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 20:12:10 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 20:12:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 20:12:11 - Finished Spring Data repository scanning in 5 ms. Found 5 JPA repository interfaces.
+2024-09-03 20:12:11 - Tomcat initialized with port 8080 (http)
+2024-09-03 20:12:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 20:12:11 - Starting service [Tomcat]
+2024-09-03 20:12:11 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 20:12:11 - Initializing Spring embedded WebApplicationContext
+2024-09-03 20:12:11 - Root WebApplicationContext: initialization completed in 125 ms
+2024-09-03 20:12:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 20:12:11 - HHH000026: Second-level cache disabled
+2024-09-03 20:12:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 20:12:11 - HikariPool-2 - Starting...
+2024-09-03 20:12:11 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43c7cc3f
+2024-09-03 20:12:11 - HikariPool-2 - Start completed.
+2024-09-03 20:12:11 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 20:12:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 20:12:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 20:12:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 20:12:11 - LiveReload server is running on port 35729
+2024-09-03 20:12:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 20:12:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 20:12:11 - Started DemoApplication in 0.35 seconds (process running for 1382.78)
+2024-09-03 20:12:11 - Condition evaluation unchanged
+2024-09-03 20:12:12 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-03 20:12:12 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-03 20:12:14 - The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-09-03 20:12:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 20:12:14 - HikariPool-2 - Shutdown initiated...
+2024-09-03 20:12:14 - HikariPool-2 - Shutdown completed.
+2024-09-03 20:12:14 - Starting DemoApplication using Java 17.0.11 with PID 55151 (/Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta/demo/target/classes started by lazarbirtasevic in /Users/lazarbirtasevic/Documents/Java/VeterinarskaAmbulanta)
+2024-09-03 20:12:14 - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 20:12:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-03 20:12:14 - Finished Spring Data repository scanning in 4 ms. Found 5 JPA repository interfaces.
+2024-09-03 20:12:14 - Tomcat initialized with port 8080 (http)
+2024-09-03 20:12:14 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-03 20:12:14 - Starting service [Tomcat]
+2024-09-03 20:12:14 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-03 20:12:14 - Initializing Spring embedded WebApplicationContext
+2024-09-03 20:12:14 - Root WebApplicationContext: initialization completed in 86 ms
+2024-09-03 20:12:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-03 20:12:14 - HHH000026: Second-level cache disabled
+2024-09-03 20:12:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-03 20:12:14 - HikariPool-3 - Starting...
+2024-09-03 20:12:14 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14dcd522
+2024-09-03 20:12:14 - HikariPool-3 - Start completed.
+2024-09-03 20:12:14 - HHH000511: The 5.7.39 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-09-03 20:12:14 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-03 20:12:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-03 20:12:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-03 20:12:14 - LiveReload server is running on port 35729
+2024-09-03 20:12:14 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-03 20:12:14 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-03 20:12:14 - Started DemoApplication in 0.246 seconds (process running for 1386.093)
+2024-09-03 20:12:14 - Condition evaluation unchanged
+2024-09-03 20:12:24 - Provera statusa pacijenata i slanje podsetnika vlasnicima.
+2024-09-03 20:41:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 20:41:58 - Initializing Servlet 'dispatcherServlet'
+2024-09-03 20:41:58 - Completed initialization in 3 ms
+2024-09-03 20:41:58 - Fetching all patients
+2024-09-03 21:33:20 - Fetching all patients
+2024-09-04 03:37:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 03:37:55 - HikariPool-3 - Shutdown initiated...
+2024-09-04 03:37:55 - HikariPool-3 - Shutdown completed.
